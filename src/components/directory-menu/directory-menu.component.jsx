@@ -4,10 +4,8 @@ import MenuItem from "../menu-item/menu-item.component";
 
 import "./directory-menu.styles.scss";
 
-class Directory extends React.Component
-{
-  constructor()
-  {
+class Directory extends React.Component {
+  constructor() {
     super();
     this.state = {
       // imageUrls provided by Yihua Zhang
